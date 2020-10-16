@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+h1{
+  animation-duration: 2s;
+  text-align : center;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h2{
+  border-bottom : 2px solid blue;
+  text-align : center;
+  border-right : 2px solid red;
+}
+.container{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : center;
+  spacing : 30px;
+  padding : 30px;
+}
+body{
+   background-color : #87CEFA;
+}
+img{
+  width : 450px;
+  height : 350px;
+  margin : 5px;
+  transition : all 1s;
+  box-shadow : 4px 4px 4px blue;
+}
+img:hover{
+   -webkit-transform : skew(40deg) scale(0.4); 
+    -ms-transform     : skew(40deg) scale(0.4); 
+    transform         : skew(40deg) scale(0.4); 
+    position: relative;
+}
+</style>
+</head>
+<body>
+<h1>DIFFERENT BIRDS</h1>
+<h2>Name : Sidda Keerthi Sri Naga Lakshmi<br>Roll No : 1906092</h2>
+<div class="container">
+<img src="img1.jpeg"/>
+<img src="img2.jpeg"/>
+<img src="img3.jpeg"/>
+<img src="img4.jpeg"/>
+<img src="img5.jpeg"/>
+<img src="img6.jpeg"/>
+</div>
+</body>
+</html>
